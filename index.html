@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Card Modern</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 30px;
+      width: 320px;
+      transition: transform 0.3s;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-10px);
+    }
+
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #5563DE;
+    }
+
+    .profile-card h2 {
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .profile-card h4 {
+      margin: 0;
+      color: #777;
+      font-weight: 500;
+    }
+
+    .profile-card p {
+      font-size: 14px;
+      color: #555;
+      margin: 15px 0;
+    }
+
+    .social-links {
+      margin-top: 15px;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #5563DE;
+      margin: 0 8px;
+      font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #74ABE2;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      background: #5563DE;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #74ABE2;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="https://otakotaku.com/asset/img/character/2025/03/kaoruko-waguri-67de8a78508adp.jpg" alt="Foto Profil">
+    <h2>waguri</h2>
+    <h4>kartu pengenalan</h4>
+    <p>perkenalkan aku waguri</p>
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-facebook"></i>🌐</a>
+      <a href="#"><i class="fa-brands fa-instagram"></i>📸</a>
+      <a href="#"><i class="fa-brands fa-twitter"></i>🐦</a>
+    </div>
+    <a href="#" class="btn">like</a>
+  </div>
+
+</body>
+</html>
